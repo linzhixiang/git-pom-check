@@ -4,9 +4,13 @@
 
 ## 2、项目部署/启动
 pip install -r requirements.txt
+
 #设置本地的maven仓库
+
 $env:M2_REPO = "Z:\repo5"
+
 $env:MAVEN_FALLBACK_ON_FAILURE = "false"
+
 uvicorn app.main:app --host 172.31.45.101 --port 8000
 
 ## 3、接口文档
