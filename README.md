@@ -7,9 +7,13 @@
 #先调整main.py，修改git-token 用于访问git项目
 
 pip install -r requirements.txt
+
 #设置本地的maven仓库
+
 $env:M2_REPO = "Z:\repo5"
+
 $env:MAVEN_FALLBACK_ON_FAILURE = "false"
+
 uvicorn app.main:app --host 172.31.45.101 --port 8000
 
 
