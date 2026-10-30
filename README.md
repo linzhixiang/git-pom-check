@@ -2,6 +2,7 @@
 <img width="1307" height="314" alt="image" src="https://github.com/user-attachments/assets/981aa0be-ce5a-41d5-bd24-d56d31efc1b9" />
 <img width="1481" height="700" alt="image" src="https://github.com/user-attachments/assets/fee1bdbf-18c4-4616-82e7-c70ea5f87bc5" />
 
+
 ## 2、项目部署/启动
 pip install -r requirements.txt
 
@@ -12,6 +13,7 @@ $env:M2_REPO = "Z:\repo5"
 $env:MAVEN_FALLBACK_ON_FAILURE = "false"
 
 uvicorn app.main:app --host 172.31.45.101 --port 8000
+
 
 ## 3、接口文档
 ### 接口1：批量解析gitlab项目依赖	
