@@ -29,7 +29,7 @@ from .analyzer import (
 
 
 # ========== 内置 GitLab Token（改这里即可） ==========
-DEFAULT_GITLAB_TOKEN = "glpat-tQFnAx33P2rjYKyCq7xs"   # ← 替换成真实 token
+DEFAULT_GITLAB_TOKEN = "glpat-xxxxxx"   # ← 替换成真实 token
 
 
 TASK_EXECUTOR = ThreadPoolExecutor(max_workers=2)
