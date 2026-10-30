@@ -3,7 +3,7 @@
 <img width="1481" height="700" alt="image" src="https://github.com/user-attachments/assets/fee1bdbf-18c4-4616-82e7-c70ea5f87bc5" />
 
 
-## 2、项目部署/启动
+## 2、项目部署/启动(windows)
 #先调整main.py，修改git-token 用于访问git项目
 
 pip install -r requirements.txt
@@ -14,7 +14,7 @@ $env:M2_REPO = "Z:\repo5"
 
 $env:MAVEN_FALLBACK_ON_FAILURE = "false"
 
-uvicorn app.main:app --host 172.31.45.101 --port 8000
+uvicorn app.main:app --host localhost --port 8000
 
 
 ## 3、接口文档
